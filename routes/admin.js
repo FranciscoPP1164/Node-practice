@@ -11,4 +11,4 @@ router.post('/product', (req, res, next) => {
   res.redirect('/add-product');
 });
 
-router.module.exports = router;
+module.exports = router;
